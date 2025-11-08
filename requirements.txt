@@ -1,0 +1,6 @@
+streamlit>=1.25.0
+gTTS>=2.3.0
+PyPDF2>=3.0.0
+pandas>=2.1.0
+openpyxl>=3.1.0
+google-genai>=0.15.0
