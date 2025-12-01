@@ -112,7 +112,7 @@ with col2:
     if st.button("🎧 Generate Audio"):
         with st.spinner("🧠 Detecting language and generating translation..."):
             try:
-                client = genai.Client(api_key="AIzaSyAmSfmnnI0PfS69tFuIOsBC4REKzw5C2Kc")
+                client = genai.Client(api_key="AIzaSyBeeGZUXrbQUzaZ6jr1W11I103ntRkx9ak")
 
                 # Step 1: Detect language
                 detect_prompt = f"Identify only the language name of this text: {text[:200]}"
